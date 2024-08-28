@@ -36,7 +36,6 @@ function copyText() {
         inputText.value = outputText.value;
         inputText.select();
         document.execCommand("copy");
-        alert("Texto copiado al portapapeles");
         hideMessage();
         showClearButton();
     }
